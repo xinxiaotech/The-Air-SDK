@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">The Air SDK</string>
+
+    <string name="downloading_with_app_name">正在下载 %1$s …</string>
+    <string name="download_success">下载成功</string>
+    <string name="download_progress">下载中: %1$d%%</string>
+    <string name="ota_up_to_date">已经是最新版本</string>
+    <string name="downloading_apk_file">正在下载安装包</string>
+    <string name="new_update_available">发现新版本</string>
+    <string name="ota_download_now">立即下载</string>
+
+    <string name="error_msg_no_network">没有网络</string>
+</resources>
