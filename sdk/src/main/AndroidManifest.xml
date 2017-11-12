@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hackplan.theairsdk">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name=".UpdateCheckerDialogActivity"
+            android:theme="@style/EmptyTheme"
+            android:launchMode="singleTask"/>
+        <service android:name=".UpdateService"/>
+        <provider
+            android:name=".TheAirFileProvider"
+            android:authorities="${applicationId}.com.hackplan.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/library_file_paths" />
+
+        </provider>
+    </application>
+</manifest>

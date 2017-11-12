@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">The Air SDK</string>
+
+    <string name="downloading_with_app_name">Downloading %1$s …</string>
+    <string name="download_success">Download successful</string>
+    <string name="download_progress">Downloading: %1$d%%</string>
+    <string name="ota_up_to_date">No update available</string>
+    <string name="downloading_apk_file">Downloading the installation package</string>
+    <string name="new_update_available">New version available</string>
+    <string name="ota_download_now">Download now</string>
+
+    <string name="error_msg_no_network">No Network</string>
+</resources>
