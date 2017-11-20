@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">The Air SDK</string>
-
     <string name="downloading_with_app_name">正在下载 %1$s …</string>
     <string name="download_success">下载成功</string>
     <string name="download_progress">下载中: %1$d%%</string>
