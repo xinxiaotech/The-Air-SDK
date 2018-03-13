@@ -12,7 +12,7 @@ repositories {
 ```
 
 ```groovy
-compile 'com.hackplan.theairsdk:0.0.1'
+compile 'com.hackplan.theairsdk:{latest_version}'
 ```
 
 ## Usage
