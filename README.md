@@ -12,8 +12,21 @@ repositories {
 ```
 
 ```groovy
-compile 'com.hackplan.theairsdk:{latest_version}'
+implementation 'com.hackplan.theairsdk:{latest_version}'
 ```
+
+Or with JitPack
+
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+```
+
+```groovy
+implementation 'com.github.xinxiaotech:The-Air-SDK:{latest_version}' // like com.github.xinxiaotech:The-Air-SDK:v1.1.0
+```
+
 
 ## Usage
 
