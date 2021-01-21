@@ -1,6 +1,6 @@
 package com.hackplan.theairsdk;
 
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 
 /**
  * Created by Dacer on 11/11/2017.
