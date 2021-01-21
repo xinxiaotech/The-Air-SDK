@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="cardBg">#2B2B2B</color>
+  <color name="fgOnCard">#C1C1C1</color>
+  <color name="negativeBg">#515151</color>
+</resources>

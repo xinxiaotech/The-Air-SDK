@@ -5,6 +5,8 @@
     <string name="ota_up_to_date">No update available</string>
     <string name="downloading_apk_file">Downloading the installation package</string>
     <string name="new_update_available">New version available</string>
+    <string name="found_new_update">Found new update</string>
+    <string name="upgrade">Upgrade</string>
     <string name="ota_download_now">Download now</string>
 
     <string name="error_msg_no_network">No Network</string>
