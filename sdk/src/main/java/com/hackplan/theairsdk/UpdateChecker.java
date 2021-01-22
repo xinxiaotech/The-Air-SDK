@@ -11,6 +11,7 @@ public class UpdateChecker implements ASyncCheckResult {
 
     private ASyncCheckResult mCheckResultCallback;
     private Context mContext;
+    private int primaryColor = Constants.THEME_PRIMARY_COLOR_DEFAULT;
     private boolean isSilenceCheck = false;
     private OnCheckFinishListener checkFinishListener;
 
@@ -22,6 +23,10 @@ public class UpdateChecker implements ASyncCheckResult {
     public UpdateChecker(Context context) {
         mContext = context;
         mCheckResultCallback = this;
+    }
+
+    public void setPrimaryColor(int primaryColor) {
+        this.primaryColor = primaryColor;
     }
 
     /**
@@ -53,6 +58,7 @@ public class UpdateChecker implements ASyncCheckResult {
             String versionName, boolean isForce) {
 
         Intent intent = new Intent(mContext, UpdateCheckerDialogActivity.class);
+        intent.putExtra(Constants.THEME_PRIMARY_COLOR, primaryColor);
         intent.putExtra(Constants.APK_DOWNLOAD_URL, link);
         intent.putExtra(Constants.APK_UPDATE_CONTENT, msg);
         intent.putExtra(Constants.APK_VERSION_CODE, versionCode);

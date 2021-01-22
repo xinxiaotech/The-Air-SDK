@@ -19,7 +19,7 @@
             >
 
             <ImageView
-                android:id="@+id/updaterImage"
+                android:id="@+id/updater_image"
                 android:layout_marginTop="24dp"
                 android:layout_width="67dp"
                 android:layout_height="67dp"
@@ -29,12 +29,12 @@
                 android:src="@drawable/updater" />
 
             <TextView
+                android:id="@+id/dialog_primary_title_tv"
                 android:layout_marginTop="16dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textColor="@color/primary"
                 android:textSize="20sp"
                 android:text="@string/new_update_available"
                 />
@@ -76,7 +76,6 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             style="@style/BigBtn"
-            android:background="@drawable/negative_btn_background"
             apptools:text="取消"
             />
         <Space
@@ -88,7 +87,6 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             style="@style/BigBtn"
-            android:background="@drawable/blue_btn_background"
             apptools:text="更新"
             />
     </LinearLayout>

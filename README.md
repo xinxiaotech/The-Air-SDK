@@ -35,6 +35,14 @@ UpdateChecker mUpdateChecker = new UpdateChecker(context);
 mUpdateChecker.start(false);
 ```
 
+### change theme
+
+```java
+UpdateChecker mUpdateChecker = new UpdateChecker(context);
+mUpdateChecker.setPrimaryColor(0xFFF68500);
+mUpdateChecker.start(false);
+```
+
 
 ## License
 

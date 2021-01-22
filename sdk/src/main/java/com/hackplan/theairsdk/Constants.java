@@ -6,6 +6,8 @@ import android.content.pm.PackageManager;
 
 class Constants {
 
+    static final int THEME_PRIMARY_COLOR_DEFAULT = 0xFF0086FA;
+    static final String THEME_PRIMARY_COLOR = "primaryColor";
     static final String APK_DOWNLOAD_URL = "url";
     static final String APK_UPDATE_CONTENT = "log";
     static final String APK_VERSION_CODE = "build";

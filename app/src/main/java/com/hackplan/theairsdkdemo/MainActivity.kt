@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
     val updateChecker = UpdateChecker(this)
+    updateChecker.setPrimaryColor(0xFFF68500.toInt())
     updateChecker.start(false)
   }
 }
